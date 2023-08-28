@@ -15,7 +15,7 @@ const Skills = () => {
             MY SKILLS
           </h5>
           {/* main */}
-          <div className="flex justify-evenly   ">
+          <div className="flex flex-col md:flex-row items-center ">
             {/* left */}
             <div className="w-1/2 text-white">
                 {/* HTML */}
@@ -241,6 +241,7 @@ const Skills = () => {
            
 
             </div>
+            
           </div>
         </div>
       </div>
