@@ -11,6 +11,7 @@ import {
 import ErrorPage from './pages/ErrorPage/ErrorPage.jsx';
 import Projects from './pages/Home/Projects/Projects.jsx';
 import Home from './pages/Home/Home/Home.jsx'
+import About from './pages/Home/About/About.jsx'
 
 
 
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
+        element: <About></About>
     
       },
       {
