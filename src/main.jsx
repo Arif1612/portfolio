@@ -12,6 +12,7 @@ import ErrorPage from './pages/ErrorPage/ErrorPage.jsx';
 import Projects from './pages/Home/Projects/Projects.jsx';
 import Home from './pages/Home/Home/Home.jsx'
 import About from './pages/Home/About/About.jsx'
+import Skills from './pages/Home/Skills/Skills.jsx'
 
 
 
@@ -26,18 +27,20 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/projects",
-        element: <Projects></Projects>,
-      },
-      {
         path: "/about",
         element: <About></About>
     
       },
       {
-        path: "/blog",
-        
+        path: "/skills",
+        element: <Skills></Skills>
       },
+      {
+        path: "/projects",
+        element: <Projects></Projects>,
+      },
+      
+     
     ],
   },
  

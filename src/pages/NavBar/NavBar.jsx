@@ -6,7 +6,7 @@ import { FaBeer } from "react-icons/fa";
 const Navbar = () => {
  
   return (
-    <div className="navbar  bg-gray-200 text-black">
+    <div className="navbar   bg-gray-200 text-black">
       <div className="navbar-start">
 
         <div className="dropdown">
@@ -37,31 +37,40 @@ const Navbar = () => {
             <FaBeer />
             <Link
               to="/"
-              className="  mx-5 hover:bg-gray-500  text-base  hover:text-white p-2 rounded-lg"
+              className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
               Home
             </Link>
-            <Link
-              to="/projects"
-              className="  mx-5 hover:bg-gray-500  text-base  hover:text-white p-2 rounded-lg"
-            >
-               Projects
-            </Link>
+
             <Link
               to="/about"
-              className="  mx-5 hover:bg-gray-500  text-base  hover:text-white p-2 rounded-lg"
+              className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
               About
             </Link>
+
+            <Link
+              to="/skills"
+              className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
+            >
+              Skills
+            </Link>
+            <Link
+              to="/projects"
+              className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
+            >
+               Projects
+            </Link>
+           
             <Link
               to="/resume"
-              className="  mx-5 hover:bg-gray-500  text-base  hover:text-white p-2 rounded-lg"
+              className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
               Resume
             </Link>
             {/* <Link
               to="/blog"
-              className="  mx-5 hover:bg-gray-500  text-base  hover:text-white p-2 rounded-lg"
+              className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
               Blog
             </Link> */}
@@ -71,7 +80,7 @@ const Navbar = () => {
         </div>
         <div>
           <Link
-            className="flex justify-center items-center text-2xl font-bold ms-3 me-3 p-3 rounded hover:bg-gray-500 hover:text-white"
+            className="flex justify-center items-center text-2xl font-bold ms-3 me-3 p-3 rounded hover:bg-gray-600 hover:text-white"
             to="/"
           >
             <img
@@ -95,32 +104,39 @@ const Navbar = () => {
       {/* nav lg screen  (middle part) */}
       <div className="navbar-end text-xl  hidden lg:flex">
         <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl  hover:text-white"
+          className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl  hover:text-white"
           to="/"
         >
           Home
         </Link>
-
         <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl hover:text-white "
-          to="/projects"
-        >
-          Projects
-        </Link>
-        <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl hover:text-white  "
+          className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/about"
         >
           About
         </Link>
         <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl hover:text-white  "
+          className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
+          to="/skills"
+        >
+          Skills
+        </Link>
+
+        <Link
+          className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white "
+          to="/projects"
+        >
+          Projects
+        </Link>
+       
+        <Link
+          className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/resume"
         >
           Resume
         </Link>
         {/* <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl hover:text-white  "
+          className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/blog"
         >
           Blog
