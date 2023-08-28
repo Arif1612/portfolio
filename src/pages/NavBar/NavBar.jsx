@@ -54,11 +54,17 @@ const Navbar = () => {
               About
             </Link>
             <Link
+              to="/resume"
+              className="  mx-5 hover:bg-gray-500  text-base  hover:text-white p-2 rounded-lg"
+            >
+              Resume
+            </Link>
+            {/* <Link
               to="/blog"
               className="  mx-5 hover:bg-gray-500  text-base  hover:text-white p-2 rounded-lg"
             >
               Blog
-            </Link>
+            </Link> */}
            
           </ul>
 
@@ -76,7 +82,7 @@ const Navbar = () => {
               alt=""
             />
 
-            <h3 className="ml-3">Portfolio</h3>
+            <h3 className="ml-3">Md. Arif Ul Islam</h3>
           </Link>
         </div>
       </div>
@@ -87,39 +93,45 @@ const Navbar = () => {
 
 
       {/* nav lg screen  (middle part) */}
-      <div className="navbar-center  hidden lg:flex">
+      <div className="navbar-end text-xl  hidden lg:flex">
         <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-lg  hover:text-white"
+          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl  hover:text-white"
           to="/"
         >
           Home
         </Link>
 
         <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-lg hover:text-white "
+          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl hover:text-white "
           to="/projects"
         >
           Projects
         </Link>
         <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-lg hover:text-white  "
+          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/about"
         >
           About
         </Link>
         <Link
-          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-lg hover:text-white  "
+          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl hover:text-white  "
+          to="/resume"
+        >
+          Resume
+        </Link>
+        {/* <Link
+          className=" mr-5  hover:bg-gray-500 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/blog"
         >
           Blog
-        </Link>
+        </Link> */}
       
       </div>
       {/* end */}
 
-      <div className="navbar-end">
+      {/* <div className="navbar-end">
     
-      </div>
+      </div> */}
     </div>
   );
 };

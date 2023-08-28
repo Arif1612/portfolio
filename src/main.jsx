@@ -10,8 +10,8 @@ import {
 } from "react-router-dom";
 import ErrorPage from './pages/ErrorPage/ErrorPage.jsx';
 import Projects from './pages/Home/Projects/Projects.jsx';
-import About from './pages/Home/Home/About/About.jsx'
-import Blog from './pages/Home/Home/Blog/Blog.jsx'
+import Home from './pages/Home/Home/Home.jsx'
+
 
 
 const router = createBrowserRouter([
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/home",
-        element: <Projects></Projects>,
+        path: "/",
+        element: <Home></Home>,
       },
       {
         path: "/projects",
@@ -30,11 +30,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <About></About>,
+    
       },
       {
         path: "/blog",
-        element: <Blog></Blog>,
+        
       },
     ],
   },
@@ -45,9 +45,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
      <HelmetProvider>
-     <div className="max-w-screen-xl mx-auto">
         <RouterProvider router={router} />
-    </div>
      </HelmetProvider>
   </React.StrictMode>
 );

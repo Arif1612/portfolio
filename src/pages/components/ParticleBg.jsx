@@ -18,18 +18,19 @@ const ParticleBg = () => {
     }, []);
 
     return (
-        <Particles
+        
+             <Particles className="max-w-screen-xl mx-auto"
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
                 fullScreen:{
-                    enable:false,
+                    enable:true,
                     zIndex:-1
                 },
                 background: {
                     color: {
-                        value:"C0C0C0",
+                        value:"#36454F",
                     },
                 },
                 fpsLimit: 120,
@@ -47,7 +48,7 @@ const ParticleBg = () => {
                     },
                     modes: {
                         push: {
-                            quantity: 5,
+                            quantity: 4,
                         },
                         repulse: {
                             distance: 200,
@@ -96,6 +97,8 @@ const ParticleBg = () => {
                 detectRetina: true,
             }}
         />
+       
+       
     );
 };
 
