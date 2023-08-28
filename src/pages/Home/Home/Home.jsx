@@ -1,9 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import ParticleBg from "../../components/ParticleBg";
 import Container from "../../Container";
-
+import img from '../../../assets/portfolio5.png'
 const Home = () => {
   return (
    <Container>
@@ -13,11 +12,12 @@ const Home = () => {
       </Helmet>
       
         <section>
-            <div className="flex text-white">
+          {/* main div */}
+            <div className="flex flex-col md:flex-row text-white ">
                {/* left */}
-             <div className="w-1/2">
-                <h5 className="text-2xl font-bold">Welcome To My World</h5>
-                 <h1 className=" text-4xl  font-bold py-3">Hi, I'm <span className="text-6xl text-blue-500">Arif</span></h1>
+             <div className="w-1/2 mt-10">
+                <h5 className="text-3xl font-bold ">Welcome To My World</h5>
+                 <h1 className=" text-4xl  font-bold pt-3 pb-6">Hi, I'm <span className="text-6xl text-blue-500">Arif</span></h1>
                  <div className="text-4xl font-bold">
                       <Typewriter 
                         options={{
@@ -32,8 +32,8 @@ const Home = () => {
             </div>
             {/* left div end */}
            {/* right */}
-          <div className="w-1/2">
-          <p>emage</p>
+          <div className="w-1/2 mt-10">
+          <img src={img} className="rounded-xl" alt="" />
           </div>
           {/* right end */}
 
