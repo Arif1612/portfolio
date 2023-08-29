@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div className="mb-10 pt-20">
+        <div className="mb-10 pt-40 md:pt-20">
 
         <Container>
             <div >
@@ -18,9 +18,9 @@ const About = () => {
             
             <section>
           {/* main div */}
-            <div className="flex flex-col md:flex-row text-white items-center ">
+            <div className="grid md:grid-cols-2 items-center grid-cols-1 gap-4 mx-10 md:m-0 text-white ">
                {/* left */}
-             <div className="w-1/2 mt-10 mr-5">
+             <div className="w-full mt-10 mr-5  ">
                 <h5 className="text-3xl font-bold ">Welcome To My World</h5>
                  <h1 className=" text-4xl  font-bold pt-2 pb-4">Hi, I'm <span className="text-6xl text-blue-500">Arif</span></h1>
                  <div className="text-4xl font-bold ">
@@ -48,7 +48,7 @@ const About = () => {
             </div>
             {/* left div end */}
            {/* right */}
-          <div className="w-1/2 mt-10">
+          <div className="w-full mt-10">
           <img src={img} className="rounded-xl" alt="" />
           </div>
           {/* right end */}

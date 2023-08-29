@@ -4,7 +4,8 @@ import Container from "../../Container";
 
 const Skills = () => {
   return (
-    <Container>
+   <div className="mb-10 pt-20  md:pt-20">
+     <Container>
       <div>
         <Helmet>
           <title>Portfolio | Skills </title>
@@ -246,6 +247,7 @@ const Skills = () => {
         </div>
       </div>
     </Container>
+   </div>
   );
 };
 
