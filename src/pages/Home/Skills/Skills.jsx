@@ -4,7 +4,7 @@ import Container from "../../Container";
 
 const Skills = () => {
   return (
-   <div className="mb-10 pt-20  md:pt-20">
+   <div className="mb-10 pt-20 ">
      <Container>
       <div>
         <Helmet>
@@ -12,15 +12,15 @@ const Skills = () => {
         </Helmet>
 
         <div>
-          <h5 className="text-4xl text-center md:text-left font-bold py-10 text-blue-500">
+          <h5 className="text-4xl text-center md:text-left font-bold py-10 text-blue-500 ">
             MY SKILLS
           </h5>
           {/* main */}
-          <div className="flex flex-col md:flex-row items-center ">
+          <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 md:gap-40 mx-10 md:m-0 ">
             {/* left */}
-            <div className="w-1/2 text-white">
+            <div className=" text-white">
                 {/* HTML */}
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     HTML
@@ -33,7 +33,7 @@ const Skills = () => {
               </div>
               {/* HTML END */}
 
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     CSS
@@ -48,7 +48,7 @@ const Skills = () => {
 
               {/* bootstrap */}
 
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     Bootstrap
@@ -62,7 +62,7 @@ const Skills = () => {
 
               {/* tailwind */}
 
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     Tailwind CSS
@@ -75,7 +75,7 @@ const Skills = () => {
               </div>
 
               {/* JavaScript */}
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     JavaScript
@@ -87,7 +87,7 @@ const Skills = () => {
                 <progress className="progress progress-accent" value="80" max="100"></progress>
               </div>
               {/* ReactJS */}
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     ReactJS
@@ -100,7 +100,7 @@ const Skills = () => {
               </div>
 
               {/* VS Code */}
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     TypeScript
@@ -114,7 +114,7 @@ const Skills = () => {
 
               {/* Redux */}
 
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     Redux
@@ -132,10 +132,10 @@ const Skills = () => {
             RIGHT 
             --------------------------------*/}
 
-            <div className="w-1/2 text-white text-end ">
+            <div className=" text-white text-end ">
 
                   {/* NodeJS */}
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     Node.js
@@ -148,7 +148,7 @@ const Skills = () => {
               </div>
               {/* ExpressJS  */}
 
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     Express.js
@@ -163,7 +163,7 @@ const Skills = () => {
 
               {/* NextJS */}
 
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     Next.js
@@ -177,7 +177,7 @@ const Skills = () => {
 
               {/* MySQL */}
 
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     MySQL
@@ -190,7 +190,7 @@ const Skills = () => {
               </div>
 
               {/* MongoDB */}
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     MongoDB
@@ -202,7 +202,7 @@ const Skills = () => {
                 <progress className="progress progress-accent" value="70" max="100"></progress>
               </div>
               {/* Git */}
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     Git
@@ -214,7 +214,7 @@ const Skills = () => {
                 <progress className="progress progress-accent" value="80" max="100"></progress>
               </div>
                  {/* GitHub*/}
-                 <div className="w-10/12 mb-5 " >
+                 <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     GitHub
@@ -227,7 +227,7 @@ const Skills = () => {
               </div>
 
               {/* VS Code */}
-              <div className="w-10/12 mb-5 " >
+              <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
                     VS Code

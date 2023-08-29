@@ -2,13 +2,10 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo.jpg";
 import { FaBeer } from "react-icons/fa";
 
-
 const Navbar = () => {
- 
   return (
     <div className="navbar fixed z-30  bg-gray-200 text-black">
-      <div className="navbar-start">
-
+      <div className="w-full flex-start">
         <div className="dropdown">
           <label
             tabIndex={0}
@@ -64,9 +61,9 @@ const Navbar = () => {
               to="/projects"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
-               PROJECTS
+              PROJECTS
             </Link>
-           
+
             <Link
               to="/resume"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
@@ -79,13 +76,11 @@ const Navbar = () => {
             >
               Blog
             </Link> */}
-           
           </ul>
-
         </div>
         <div>
           <Link
-            className="flex justify-center items-center text-2xl font-bold ms-3 me-3 p-3 rounded hover:bg-gray-600 hover:text-white"
+            className="flex justify-center items-center text-2xl font-bold ms-3 me-3 p-2 rounded hover:bg-gray-600 hover:text-white"
             to="/"
           >
             <img
@@ -96,7 +91,7 @@ const Navbar = () => {
               alt=""
             />
 
-            <h3 className="ml-3">Md. Arif Ul Islam</h3>
+            <h3 className="ml-3 ">Md. Arif Ul Islam</h3>
           </Link>
         </div>
       </div>
@@ -104,7 +99,6 @@ const Navbar = () => {
       {/* //////////////////////////////
       
       start end //////////////////// */}
-
 
       {/* nav lg screen  (middle part) */}
       <div className="navbar-end text-xl font-semibold  hidden lg:flex">
@@ -139,7 +133,7 @@ const Navbar = () => {
         >
           PROJECTS
         </Link>
-       
+
         <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/resume"
@@ -152,7 +146,6 @@ const Navbar = () => {
         >
           Blog
         </Link> */}
-      
       </div>
       {/* end */}
 

@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 
 const Education = () => {
   return (
-    <div className="mb-10 pt-40 md:pt-20">
+    <div className="mb-10 pt-20">
       <Helmet>
         <title>Portfolio | Education </title>
       </Helmet>
