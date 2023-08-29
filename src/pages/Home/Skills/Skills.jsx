@@ -11,7 +11,7 @@ const Skills = () => {
         </Helmet>
 
         <div>
-          <h5 className="text-4xl  font-bold py-10 text-blue-500">
+          <h5 className="text-4xl text-center md:text-left font-bold py-10 text-blue-500">
             MY SKILLS
           </h5>
           {/* main */}
@@ -131,7 +131,7 @@ const Skills = () => {
             RIGHT 
             --------------------------------*/}
 
-            <div className="w-1/2 text-white">
+            <div className="w-1/2 text-white text-right">
 
                   {/* NodeJS */}
               <div className="w-10/12 mb-5 " >
@@ -241,7 +241,7 @@ const Skills = () => {
            
 
             </div>
-            
+
           </div>
         </div>
       </div>

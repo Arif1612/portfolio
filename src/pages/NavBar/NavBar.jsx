@@ -32,41 +32,46 @@ const Navbar = () => {
 
           <ul
             tabIndex={0}
-            className="menu menu-sm flex flex-col dropdown-content  p-2 shadow bg-base-300 rounded-box w-60 text-center text-black absolute top-0 z-10"
+            className="menu menu-sm flex flex-col dropdown-content  p-2 shadow bg-base-300 rounded-box w-60 text-center text-black absolute top-0 z-10 font-semibold"
           >
-            <FaBeer />
             <Link
               to="/"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
-              Home
+              HOME
             </Link>
 
             <Link
               to="/about"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
-              About
+              ABOUT
+            </Link>
+            <Link
+              to="/education"
+              className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
+            >
+              EDUCATION
             </Link>
 
             <Link
               to="/skills"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
-              Skills
+              SKILLS
             </Link>
             <Link
               to="/projects"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
-               Projects
+               PROJECTS
             </Link>
            
             <Link
               to="/resume"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
-              Resume
+              RESUME
             </Link>
             {/* <Link
               to="/blog"
@@ -102,38 +107,44 @@ const Navbar = () => {
 
 
       {/* nav lg screen  (middle part) */}
-      <div className="navbar-end text-xl  hidden lg:flex">
+      <div className="navbar-end text-xl font-semibold  hidden lg:flex">
         <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl  hover:text-white"
           to="/"
         >
-          Home
+          HOME
         </Link>
         <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/about"
         >
-          About
+          ABOUT
+        </Link>
+        <Link
+          className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
+          to="/education"
+        >
+          EDUCATION
         </Link>
         <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/skills"
         >
-          Skills
+          SKILLS
         </Link>
 
         <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white "
           to="/projects"
         >
-          Projects
+          PROJECTS
         </Link>
        
         <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
           to="/resume"
         >
-          Resume
+          RESUME
         </Link>
         {/* <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
