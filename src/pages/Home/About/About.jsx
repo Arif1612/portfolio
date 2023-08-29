@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div className="mb-10">
+        <div className="mb-10 pt-20">
 
         <Container>
             <div >
@@ -57,10 +57,6 @@ const About = () => {
         {/* main end */}
         </section>
             </div>
-        </Container>
-
-        <Container>
-
         </Container>
         
         </div>

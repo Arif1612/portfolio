@@ -131,7 +131,7 @@ const Skills = () => {
             RIGHT 
             --------------------------------*/}
 
-            <div className="w-1/2 text-white text-right">
+            <div className="w-1/2 text-white text-end ">
 
                   {/* NodeJS */}
               <div className="w-10/12 mb-5 " >

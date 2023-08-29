@@ -6,7 +6,7 @@ import { FaBeer } from "react-icons/fa";
 const Navbar = () => {
  
   return (
-    <div className="navbar   bg-gray-200 text-black">
+    <div className="navbar fixed z-30  bg-gray-200 text-black">
       <div className="navbar-start">
 
         <div className="dropdown">

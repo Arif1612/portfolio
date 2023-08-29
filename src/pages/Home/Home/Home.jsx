@@ -18,8 +18,9 @@ const Home = () => {
       </Helmet>
 
       <About ></About>
+      <Education></Education>
       <Skills></Skills>
-       <Education></Education>
+      
       
        
     </div>
