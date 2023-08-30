@@ -14,7 +14,7 @@ const Education = () => {
       
            <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-10 md:m-0">
             
-           <div className="w-full  card full bg-neutral text-neutral-content">
+           <div className="w-full  card full bg-neutral font-semibold hover:bg-base-100 hover:text-black text-neutral-content">
           <div className="card-body items-center text-center">
             <h2 className="card-title">Undergraduate School</h2>
             <p>United International University <br /> (BSC in CSE)</p>
@@ -24,7 +24,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="card w-full full bg-neutral text-neutral-content">
+        <div className="card w-full full bg-neutral font-semibold hover:bg-base-100  hover:text-black  text-neutral-content">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
             Higher Secondary School</h2>
@@ -35,7 +35,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="card w-full full bg-neutral text-neutral-content">
+        <div className="card w-full full bg-neutral font-semibold hover:bg-base-100  hover:text-black  text-neutral-content">
           <div className="card-body items-center text-center">
             <h2 className="card-title">Secondary School</h2>
             <p>Birshreshtha Noor Mohammad Public College (Science Group)</p>
