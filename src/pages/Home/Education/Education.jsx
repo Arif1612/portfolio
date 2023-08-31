@@ -10,7 +10,7 @@ const Education = () => {
       </Helmet>
 
       <Container className=" mt-10 mb-10" >
-      <h5 className="text-4xl text-center md:text-left font-bold py-10 text-blue-500">  EDUCATION </h5>
+      <h5 className="text-4xl text-center  font-bold py-10 text-blue-500">  EDUCATION </h5>
       
            <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-10 md:m-0">
             

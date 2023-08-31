@@ -12,7 +12,7 @@ const Skills = () => {
         </Helmet>
 
         <div>
-          <h5 className="text-4xl text-center md:text-left font-bold py-10 text-blue-500 ">
+          <h5 className="text-4xl text-center  font-bold py-10 text-blue-500 ">
             MY SKILLS
           </h5>
           {/* main */}

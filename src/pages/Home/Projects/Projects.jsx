@@ -15,7 +15,7 @@ const Projects = () => {
       </Helmet>
 
       <Container className=" mt-10 mb-10">
-        <h5 className="text-4xl text-center md:text-left font-bold py-10 text-blue-500">
+        <h5 className="text-4xl text-center  font-bold py-10 text-blue-500">
           PROJECTS
         </h5>
 
