@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.jpg";
-import { FaBeer } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -63,9 +62,15 @@ const Navbar = () => {
             >
               PROJECTS
             </Link>
+            <Link
+              to="/contact"
+              className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
+            >
+              CONTACT
+            </Link>
 
             <Link
-              to="/resume"
+              to="https://drive.google.com/drive/folders/1nhxSj20y-G-srBFC0ZwTtGB5G5ltM8Da?usp=sharing"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
               RESUME
@@ -133,10 +138,16 @@ const Navbar = () => {
         >
           PROJECTS
         </Link>
+        <Link
+          className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white "
+          to="/contact"
+        >
+          CONTACT
+        </Link>
 
         <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
-          to="/resume"
+          to="https://drive.google.com/drive/folders/1nhxSj20y-G-srBFC0ZwTtGB5G5ltM8Da?usp=sharing"
         >
           RESUME
         </Link>

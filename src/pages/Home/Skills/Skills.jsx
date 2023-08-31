@@ -93,7 +93,7 @@ const Skills = () => {
                     ReactJS
                   </span>
                   <span className="text-normal font-semibold text-primary-600">
-                    80%
+                    90%
                   </span>
                 </div>
                 <progress className="progress progress-accent" value="80" max="100"></progress>
@@ -220,7 +220,7 @@ const Skills = () => {
                     GitHub
                   </span>
                   <span className="text-normal font-semibold text-primary-600">
-                    80%
+                    90%
                   </span>
                 </div>
                 <progress className="progress progress-accent" value="80" max="100"></progress>

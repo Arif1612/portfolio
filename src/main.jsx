@@ -14,6 +14,7 @@ import Home from './pages/Home/Home/Home.jsx'
 import About from './pages/Home/About/About.jsx'
 import Skills from './pages/Home/Skills/Skills.jsx'
 import Education from './pages/Home/Education/Education.jsx'
+import Contact from './pages/Home/Contact/Contact.jsx'
 
 
 
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects></Projects>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
       
      
