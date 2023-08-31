@@ -3,6 +3,7 @@ import Navbar from "./pages/NavBar/NavBar";
 import { Helmet } from "react-helmet-async";
 import ParticleBg from "./pages/components/ParticleBg";
 
+
 const App = () => {
   return (
     <div>
@@ -12,7 +13,8 @@ const App = () => {
       <Navbar></Navbar>
       <ParticleBg></ParticleBg>
       <Outlet></Outlet>
-      {/* <Footer></Footer> */}
+      
+     
     </div>
   );
 };
