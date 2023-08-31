@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import Container from "../../Container";
 import img from '../../../assets/portfolio5.png';
-import { BsFacebook,BsGithub } from 'react-icons/bs';
+import { BsFacebook,BsGithub,BsLinkedin } from 'react-icons/bs';
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -38,8 +38,9 @@ const About = () => {
                   <div>
                   <h5 className="text-3xl font-bold  text-blue-500  mt-8 mb-3">CATCH ME ON </h5> 
                   <div className="text-4xl flex">
-                    <p className="mr-5"><Link to="https://www.facebook.com/arifulislam.sumon.1029/"> <BsFacebook></BsFacebook></Link></p>
-                    <p><Link to="https://www.facebook.com/arifulislam.sumon.1029/"> <BsGithub></BsGithub> </Link></p>
+                    <p className="mr-5 hover:text-blue-500"><Link to="https://www.linkedin.com/in/mdarifulislam45/"> <BsLinkedin></BsLinkedin> </Link></p>
+                    <p className="mr-5 hover:text-blue-500"><Link to="https://www.facebook.com/arifulislam.sumon.1029/"> <BsFacebook></BsFacebook></Link></p>
+                    <p className="hover:text-blue-500" ><Link to="https://www.facebook.com/arifulislam.sumon.1029/"> <BsGithub ></BsGithub> </Link></p>
                   </div>
                   </div>
              
