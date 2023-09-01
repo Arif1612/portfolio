@@ -33,7 +33,7 @@ const About = () => {
                       />
                   </div>
 
-                  <p className="my-6"> I am Md. Arif Ul Islam. Earned a Bachelor's degree in Computer Science. I am looking for a job as a MERN stack developer. I have vast experience in HTML5, CSS3, Bootstrap, tailwindCSS, JavaScript, Fetch API, ReactJS, Node.js, Express.js, Firebase and MongoDB.  I like to develop myself with new technologies. I am waiting to work with you. Feel free to contact me for any web development related task. Thank You.</p>
+                  <p className="my-6"> Earned a Bachelor's degree in Computer Science. I am looking for a job as a MERN stack developer. I have vast experience in HTML5, CSS3, Bootstrap, tailwindCSS, JavaScript, Fetch API, ReactJS, Node.js, Express.js, Firebase and MongoDB.  I like to develop myself with new technologies. I am waiting to work with you. Feel free to contact me for any web development related task. Thank You.</p>
 
                   <div>
                   <h5 className="text-3xl font-bold  text-blue-500  mt-8 mb-3">CATCH ME ON </h5> 
