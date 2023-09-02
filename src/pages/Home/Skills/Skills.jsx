@@ -201,17 +201,17 @@ const Skills = () => {
                 </div>
                 <progress className="progress progress-accent" value="70" max="100"></progress>
               </div>
-              {/* Git */}
+              {/* Firebase */}
               <div className=" mb-5 " >
                 <div className="flex items-center justify-between  ">
                   <span className="text-normal font-semibold bg-primary-100 text-primary-700  rounded-full">
-                    Git
+                    Firebase
                   </span>
                   <span className="text-normal font-semibold text-primary-600">
-                    80%
+                    90%
                   </span>
                 </div>
-                <progress className="progress progress-accent" value="80" max="100"></progress>
+                <progress className="progress progress-accent" value="90" max="100"></progress>
               </div>
                  {/* GitHub*/}
                  <div className=" mb-5 " >
