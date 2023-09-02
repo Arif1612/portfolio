@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 import image from "../../../assets/iron-fist.png";
 import speedyRiders from "../../../assets/speedy-riders.png";
 import newsLetter from "../../../assets/newsLetter.png";
-import justice from "../../../assets/justice.png";
+import tastyTrails from "../../../assets/tasty-trails.png";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -112,35 +112,40 @@ const Projects = () => {
               </ul>
             </div>
           </div>
+          
           {/* --------------------------------------
-          justice
+          tasty trails
           ------------------------------------------ */}
           <div className="card  bg-base-100 shadow-xl">
             <figure>
-              <img src={justice} alt="speedy-riders" />
+              <img src={tastyTrails} alt="speedy-riders" />
             </figure>
             <div className="card-body">
               
-              <h2 className="text-4xl font-bold">Justice <span className="text-xl font-bold items-center">(Feb 23, 2023)</span> </h2>
+              <h2 className="text-4xl font-bold">Tasty Trails <span className="text-xl font-bold items-center">(May 26, 2023 - May 29, 2023)</span> </h2>
               <p>
-              Convert a figma  file to HTML CSS.
+              This is a responsive  website based On Indian food recipes
               </p>
              <div>
-              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://legal-house-justices.netlify.app/#">Live Site    </Link> 
-              {/* <Link className="hover:text-blue-600 text-xl font-bold"  to="https://github.com/Programming-Hero-Web-Course4/b7-legal-house-Arif1612">Github Link </Link> */}
+              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://tasty-trails-71f0b.web.app/">Live Site   <span className="ml-3">|</span>  </Link> 
+              <Link className="hover:text-blue-600 text-xl font-bold"  to="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-Arif1612">Github Client Link <span className="ml-3 mr-3">|</span>  </Link>
+              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-Arif1612">Github Server Link </Link>
              </div>
               
               <p className="text-xl font-bold"></p>
               <p className="text-xl font-bold"> Technologies</p>
-              <p>HTML, CSS, Bootstrap, VS Code</p>
+              <p>ReactJS, React Router, Firebase, Bootstrap, Express.js, MongoDB, Node.js</p>
               <p className="text-xl font-bold">Features</p>
-            
+              
+
               <ul className="list-disc ms-10">
-                <li>Responsive</li>
-                <li>Custom Fonts and Typography</li>
+                <li>Users can authenticate with Google, Github, Email & Password </li>
+                <li>Users can select chefs to view all recipes</li>
+                <li>Users can mark recipes as their favorites</li>
               </ul>
             </div>
           </div>
+          
          
         </div>
       </Container>
