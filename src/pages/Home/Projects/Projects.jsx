@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="mb-10 pt-20">
+    <div className="mb-10 pt-20 flex justify-center items-center">
       <Helmet>
         <title>Portfolio | Projects </title>
       </Helmet>

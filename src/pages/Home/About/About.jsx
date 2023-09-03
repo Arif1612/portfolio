@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div className="mb-10 pt-20">
+        <div className="mb-10 pt-20 flex justify-center items-center">
 
         <Container>
             <div >
