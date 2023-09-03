@@ -48,6 +48,7 @@ const Contact = () => {
         
         {/* left  div */}
             <div className="text-center hidden md:block   md:text-left items-center text-white">
+            <div className="px-96"></div>
               <h1 className="text-3xl font-bold text-blue-500 mb-3">GET IN TOUCH </h1>
               <h5 className="text-2xl font-bold">Name</h5>
               <p className="text-xl" >Me. Arif Ul Islam</p>
@@ -63,7 +64,7 @@ const Contact = () => {
             {/* form */}
             
             <div className="card   shadow-2xl bg-base-100">
-             <div className="px-96"></div>
+            
             
               <div className="card-body">
               <h1 className="text-2xl font-bold text-blue-500 mb-3"> MESSAGE ME </h1>
