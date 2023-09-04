@@ -33,8 +33,8 @@ const Projects = () => {
               </p>
              <div>
               <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://iron-fist-b25fb.web.app/">Live Site   <span className="ml-3">|</span>  </Link> 
-              <Link className="hover:text-blue-600 text-xl font-bold"  to="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Arif1612">Github Client Link <span className="ml-3 mr-3">|</span>  </Link>
-              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Arif1612">Github Server Link </Link>
+              <Link className="hover:text-blue-600 text-xl font-bold"  to="https://github.com/Arif1612/iron-fist">Github Client Link <span className="ml-3 mr-3">|</span>  </Link>
+              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://github.com/Arif1612/iron-fist-server">Github Server Link </Link>
              </div>
               
               <p className="text-xl font-bold"></p>
@@ -66,8 +66,8 @@ const Projects = () => {
               </p>
              <div>
               <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://speedy-rides.web.app/">Live Site   <span className="ml-3">|</span>  </Link> 
-              <Link className="hover:text-blue-600 text-xl font-bold"  to="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-Arif1612">Github Client Link <span className="ml-3 mr-3">|</span>  </Link>
-              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-Arif1612">Github Server Link </Link>
+              <Link className="hover:text-blue-600 text-xl font-bold"  to="https://github.com/Arif1612/speedy-riders">Github Client Link <span className="ml-3 mr-3">|</span>  </Link>
+              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://github.com/Arif1612/tasty-trails-server">Github Server Link </Link>
              </div>
               
               <p className="text-xl font-bold"></p>
@@ -128,8 +128,8 @@ const Projects = () => {
               </p>
              <div>
               <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://tasty-trails-71f0b.web.app/">Live Site   <span className="ml-3">|</span>  </Link> 
-              <Link className="hover:text-blue-600 text-xl font-bold"  to="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-Arif1612">Github Client Link <span className="ml-3 mr-3">|</span>  </Link>
-              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-Arif1612">Github Server Link </Link>
+              <Link className="hover:text-blue-600 text-xl font-bold"  to="https://github.com/Arif1612/tasty-trails">Github Client Link <span className="ml-3 mr-3">|</span>  </Link>
+              <Link className="hover:text-blue-600 text-xl font-bold mr-3"  to="https://github.com/Arif1612/tasty-trails-server">Github Server Link </Link>
              </div>
               
               <p className="text-xl font-bold"></p>
