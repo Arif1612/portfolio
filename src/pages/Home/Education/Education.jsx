@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../../Container";
 import { Helmet } from "react-helmet-async";
 

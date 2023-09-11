@@ -1,6 +1,6 @@
 import Container from "../../Container";
 import { Helmet } from "react-helmet-async";
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
 import { useForm } from "react-hook-form";
@@ -47,7 +47,7 @@ const Contact = () => {
           <div className="hero-content w-full grid md:grid-cols-2 ">
         
         {/* left  div */}
-            <div className="text-center hidden md:block   md:text-left items-center text-white">
+            <div className="text-center hidden md:block   md:text-left items-center">
             <div className="px-96"></div>
               <h1 className="text-3xl font-bold text-blue-500 mb-3">GET IN TOUCH </h1>
               <h5 className="text-2xl font-bold">Name</h5>

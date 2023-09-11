@@ -1,22 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import { HelmetProvider } from 'react-helmet-async'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import { HelmetProvider } from "react-helmet-async";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import ErrorPage from './pages/ErrorPage/ErrorPage.jsx';
-import Projects from './pages/Home/Projects/Projects.jsx';
-import Home from './pages/Home/Home/Home.jsx'
-import About from './pages/Home/About/About.jsx'
-import Skills from './pages/Home/Skills/Skills.jsx'
-import Education from './pages/Home/Education/Education.jsx'
-import Contact from './pages/Home/Contact/Contact.jsx'
-
-
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx";
+import Projects from "./pages/Home/Projects/Projects.jsx";
+import Home from "./pages/Home/Home/Home.jsx";
+import About from "./pages/Home/About/About.jsx";
+import Skills from "./pages/Home/Skills/Skills.jsx";
+import Education from "./pages/Home/Education/Education.jsx";
+import Contact from "./pages/Home/Contact/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,17 +25,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <About></About>
-    
+        element: <About></About>,
       },
       {
         path: "/education",
-        element: <Education></Education>
-    
+        element: <Education></Education>,
       },
       {
         path: "/skills",
-        element: <Skills></Skills>
+        element: <Skills></Skills>,
       },
       {
         path: "/projects",
@@ -50,18 +43,14 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact></Contact>,
       },
-      
-     
     ],
   },
- 
 ]);
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-     <HelmetProvider>
+      <HelmetProvider>
         <RouterProvider router={router} />
-     </HelmetProvider>
+      </HelmetProvider>
   </React.StrictMode>
 );
