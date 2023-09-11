@@ -70,7 +70,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="https://drive.google.com/drive/folders/1nhxSj20y-G-srBFC0ZwTtGB5G5ltM8Da?usp=sharing"
+              to="https://drive.google.com/file/d/1wa1CM4V9jn1FP7xl083DkmXnAhHT8jvT/view?usp=sharing"
               className="  mx-5 hover:bg-gray-600  text-base  hover:text-white p-2 rounded-lg"
             >
               RESUME
@@ -147,7 +147,7 @@ const Navbar = () => {
 
         <Link
           className=" mr-5  hover:bg-gray-600 px-3 py-2 rounded hover:text-2xl hover:text-white  "
-          to="https://drive.google.com/drive/folders/1nhxSj20y-G-srBFC0ZwTtGB5G5ltM8Da?usp=sharing"
+          to="https://drive.google.com/file/d/1wa1CM4V9jn1FP7xl083DkmXnAhHT8jvT/view?usp=sharing"
         >
           RESUME
         </Link>
