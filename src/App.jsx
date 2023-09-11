@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./pages/NavBar/NavBar";
 import { Helmet } from "react-helmet-async";
-import ParticleBg from "./pages/components/ParticleBg";
+// import ParticleBg from "./pages/components/ParticleBg";
 
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
         <title>Portfolio</title>
       </Helmet>
       <Navbar></Navbar>
-      <ParticleBg></ParticleBg>
+      {/* <ParticleBg></ParticleBg> */}
       <Outlet></Outlet>
       
      
