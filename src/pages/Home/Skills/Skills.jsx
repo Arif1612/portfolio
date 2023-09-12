@@ -17,7 +17,7 @@ const Skills = () => {
         <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 md:gap-40 mx-10 md:m-0 ">
           {/* left */}
          
-          <div className=" text-white w-full ">
+          <div className="  w-full ">
             {/* HTML */}
             <div className=" mb-5  w-full  ">
               <div className="flex items-center justify-between  ">
@@ -162,7 +162,7 @@ const Skills = () => {
             RIGHT 
             --------------------------------*/}
 
-          <div className=" text-white text-end ">
+          <div className="  text-end ">
             {/* NodeJS */}
             <div className="px-96" ></div>
             <div className=" mb-5 ">
